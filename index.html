@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <a class="nav-bar__texto" id="inicio" href="index.html" >Inicio</a>
+                <a class="nav-bar__texto" id="sobre_mim" href="about.html" >Sobre mim</a>
+                <a class="nav-bar__texto" id="contato" href="contato.html" >Contato</a>
+                <a class="nav-bar__texto" id="contato" href="curriculo.html" >Currículo</a>
+            </div>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__content">
+            <h1 class="apresentacao__content__titulo">Eleve seu negócio digital a outro nível 
+                <strong class="titulo-destaque">
+                    com um Front-end de qualidade!
+                </strong>
+            </h1>
+                <P class="apresentacao__content__texto">
+                    Olá! Sou Yuri Trecha, desenvolvedor Front-end
+                    com especialidade em React, HTML e CSS.
+                    Ajudo pequenos negócios e designers a 
+                    colocarem em prática boas ideias. Vamos conversar?
+                </P>
+                <div class="apresentacao__links">
+                    <h2 class="apresentacao__links_subtitulo">Acesse minhas redes:</h2>
+                    <button class="apresentacao__links__link" id="github_button" onclick="redirecionar_github()">
+                        <img src="assets/icons/github.png" alt="github-icon">
+                        Github
+                    </button> 
+                    <button class="apresentacao__links__link" id="linkedin_button" onclick="redirecionar_linkedin()">
+                        <img src="assets/icons/linkedin.png" alt="linkedin-icon">
+                        Linkedin
+                    </button>
+                </div>
+        </section>       
+            <img src="assets/img/img-01.jpg" alt="assets/img/img-01.jpg" class="imagem">
+    </main>
+    <footer class="footer">
+        <p class="texto_footer">Desenvolvido por @YuriTrecha</p>
+    </footer>
+
+<script src="script.js" defer ></script>
+
+</body>
